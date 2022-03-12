@@ -1,0 +1,12 @@
+cc_test(
+	name = "importopensslunit",
+	size = "small",
+	srcs = [
+		"openssl.cc",
+	],
+	copts = ["-std=c++17"],
+	deps = [
+		"@com_google_googletest//:gtest_main",
+		"@com_stablecc_scclib_openssl//:importopenssllib",
+	],
+)

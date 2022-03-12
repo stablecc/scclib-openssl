@@ -1,0 +1,15 @@
+cc_library(
+	name = "importopenssllib",
+	srcs = [
+		"openssl.cc",
+	],
+	includes = [
+		"pub",
+	],
+	copts = ["-std=c++17"],
+	linkopts = [
+		"-lcrypto",
+		"-lssl",
+	],
+	visibility = ["//visibility:public"],
+)
