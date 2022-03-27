@@ -3,14 +3,14 @@
 Requires an installed
 [OpenSSL Toolkit](https://www.openssl.org).
 
-## Installation
+## installation
 
 OpenSSL version 1.1.0 or greater must be installed in the system.
 
-## Licensing
+## licensing
 
-Source:
+Original source:
 * [BSD 3-Clause License](LICENSE)
 
-Redistribution:
-* [OpenSSL and SSLeay Licenses](license-openssl-ssleay.txt)
+External and redistributable:
+* [openssl](lic/openssl.txt)
