@@ -35,3 +35,4 @@ Original source:
 
 External and redistributable:
 * [openssl](lic/openssl.txt)
+* [googletest](lic/google.txt)
