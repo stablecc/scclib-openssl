@@ -29,7 +29,7 @@
 ifndef IMPORT_OPENSSL
 IMPORT_OPENSSL := 1
 
-BLDLIBS += $(BASE)/import/openssl
+BLDLIBS += $(BASE)/scclib-openssl
 
 SLIBS := -lcrypto -lssl $(SLIBS)
 
