@@ -34,7 +34,7 @@ cc_library(
 	includes = [
 		"pub",
 	],
-	copts = ["-std=c++17"],
+	copts = ["-std=c++20"],
 	linkopts = [
 		"-lcrypto",
 		"-lssl",
